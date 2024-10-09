@@ -1,0 +1,32 @@
+name: Story Template
+description: Template for submitting storys for this repository
+title: '[Story]: '
+labels:
+  - story
+  - to be triaged
+projects: ['input-output-hk/127']
+assignees:
+  - RSoulatIOHK
+body:
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Acknowledgements
+      description: This story template can only be filled out by members of the team
+      options:
+        - label: I am a member of the team
+          required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Story description
+      description: Please provide a detailed description of your idea.
+      placeholder: What is the idea? What problem does it solve? What would be the user journey?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance criteria
+      description: What are the conditions that must be met for this story to be considered complete?
+      placeholder: What are the conditions that must be met for this story to be considered complete?

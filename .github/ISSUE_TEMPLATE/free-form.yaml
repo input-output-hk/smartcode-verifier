@@ -1,0 +1,23 @@
+name: Free form
+description: Free form issue template
+title: '[Issue]: '
+labels: [to be triaged]
+projects: ['input-output-hk/127']
+assignees: [RsoulatIOHK]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to submit an issue to this repository!
+  - type: input
+    id: contact
+    attributes:
+      label: Your contact information
+      description: How can we reach you to discuss this issue further?
+      placeholder: GitHub username, email address, etc.
+  - type: textarea
+    id: description
+    attributes:
+      label: Issue description
+      description: Please provide a detailed description of your issue.
+      placeholder: What is the issue? What problem does it solve? What would be the user journey? 

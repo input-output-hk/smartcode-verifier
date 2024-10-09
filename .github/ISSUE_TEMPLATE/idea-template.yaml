@@ -1,0 +1,26 @@
+name: Idea Template
+description: Template for submitting ideas for this repository
+title: '[Idea]: '
+labels:
+  - idea
+  - to be triaged
+projects: ['input-output-hk/127']
+assignees:
+  - RSoulatIOHK
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to submit an idea to this repository!
+  - type: input
+    id: contact
+    attributes:
+      label: Your contact information
+      description: How can we reach you to discuss this idea further?
+      placeholder: GitHub username, email address, etc.
+  - type: textarea
+    id: description
+    attributes:
+      label: Idea description
+      description: Please provide a detailed description of your idea.
+      placeholder: What is the idea? What problem does it solve? What would be the user journey? 

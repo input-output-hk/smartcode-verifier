@@ -1,0 +1,43 @@
+name: Epic Template
+description: Template for submitting epics for this repository
+title: '[Epic]: '
+labels:
+  - epic
+  - to be triaged
+projects: ['input-output-hk/127']
+assignees:
+  - RSoulatIOHK
+body:
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Acknowledgements
+      description: This template for Epics can only be filled out by members of the team
+      options:
+        - label: I am a member of the team
+          required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Epic description
+      description: Please provide a detailed description of your idea.
+      placeholder: What is the idea? What problem does it solve? What would be the user journey?
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Acceptance Criteria/Task List
+      value: |
+          - [ ] Specify the feature
+          - [ ] Develop the feature
+          - [ ] Test the feature
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this idea?
+      options:
+        - Low
+        - Medium
+        - High
