@@ -1,5 +1,14 @@
 # Smart Code Verifier
 
+## Important Notice
+
+**This repository is for the open-source version of the tool.**
+Active developments are in a private repository: https://github.com/input-output-hk/sc-fvt 
+
+Please **contact us** to get access to the private repository if you want to contribute.
+Open an issue in this repository and we'll contact you back asap!
+
+## Introduction
 Smart Code Verifier aims at solving the difficulty developers face when trying to exhaustively verify their smart contract implementations. In the current state-of-the-art for Cardano's smart contracts, two main approaches exist: the use of interactive theorem provers like Coq or Agda to formally verify the intended behavior of smart contracts, and the use of testing techniques like property-based testing.
 
 Existing formal verification tools for Cardano smart contracts are predominantly based on interactive theorem provers. While these tools can ensure security, correctness, and reliability, they typically require expert knowledge of formal methods. Their expressive power makes them valuable for proving complex and intricate properties. However, the steep learning curve, limited support for automated reasoning, and inability to produce counterexamples for falsified theorems make them almost inaccessible to non-experts. Additionally, most of these approaches require developers to express their smart contracts in a formal language, potentially creating gaps between the source code and the formal model's semantics. These gaps often appear when abstractions are introduced to facilitate reasoning.
