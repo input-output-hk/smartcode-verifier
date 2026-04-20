@@ -1,12 +1,24 @@
 # Smart Code Verifier
 
+[![Discord](https://img.shields.io/discord/1485165953330184334?logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gg/waYbH94ajy)
+
 ## Important Notice
 
-**This repository is for the open-source version of the tool.**
-Active developments are in a private repository: https://github.com/input-output-hk/sc-fvt 
+> [!IMPORTANT]
+> Tool is currently being developed in those repositories:
+> 
+> Reasoning Core (C3, C4, C5, C6): [Lean-blaster](https://github.com/input-output-hk/Lean-blaster)
+> 
+> CEK Machine, UPLC, PlutusCore builtins: [PlutusCore Blaster](https://github.com/input-output-hk/PlutusCoreBlaster)
+> 
+> Blockchain state, Script contexts, helper functions: [Cardano Ledger API Blaster](https://github.com/input-output-hk/CardanoLedgerAPIBlaster)
 
-Please **contact us** to get access to the private repository if you want to contribute.
-Open an issue in this repository and we'll contact you back asap!
+> [!NOTE]
+> The following description is a bit outdated.
+> 
+> This is kept only as a reference to the Catalyst project submitted where this repository was mentioned
+> 
+> Join us on Discord for the latest updates, discussions: [Blaster Discord](https://discord.gg/waYbH94ajy)
 
 ## Introduction
 Smart Code Verifier aims at solving the difficulty developers face when trying to exhaustively verify their smart contract implementations. In the current state-of-the-art for Cardano's smart contracts, two main approaches exist: the use of interactive theorem provers like Coq or Agda to formally verify the intended behavior of smart contracts, and the use of testing techniques like property-based testing.
