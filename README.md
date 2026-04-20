@@ -1,6 +1,6 @@
 # Smart Code Verifier
 
-[![Discord](https://img.shields.io/discord/1485165953330184334?logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gg/waYbH94ajy)
+[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/waYbH94ajy)
 
 ## Important Notice
 
